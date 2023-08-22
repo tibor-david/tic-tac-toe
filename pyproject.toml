@@ -1,0 +1,22 @@
+[project.urls]
+repository = "https://github.com/tibor-david/tic-tac-toe"
+
+[project]
+name = "tictactoe"
+version = "1.0.0"
+requires-python  = ">= 3.6"
+description = "A library to play tic-tac-toe in the terminal against an algorithm."
+readme = "README.md"
+license = { file = "LICENSE.txt" }
+authors = [
+    { name = "Tibor David"},
+]
+maintainers = [
+  {name = "Tibor David"},
+]
+
+dependencies = ['windows-curses ; platform_system == "Windows"']
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
