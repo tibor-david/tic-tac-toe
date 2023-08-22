@@ -26,7 +26,7 @@ Furthermore, this library's flexibility allows you to integrate it into your pro
 
 2. **Directly use pip**
 
-   You can directly run the command: `pip install git+https://github.com/lorem-ipsum` without the need to clone the repository.
+   You can directly run the command: `pip install git+https://github.com/tibor-david/tic-tac-toe` without the need to clone the repository.
 
 ## How to Play
 
