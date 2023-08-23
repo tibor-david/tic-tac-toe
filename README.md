@@ -41,7 +41,7 @@ You can start playing in two ways:
    ```python
    from titactoe import TicTacToecCurses
 
-   ttt = TicTacToe()
+   ttt = TicTacToeCurses()
    ttt.play()
    ```
 
