@@ -1,13 +1,5 @@
 import copy
 from typing import Literal
-from enum import Enum
-
-
-class GameStatus(Enum):
-    PLAYER_1_WIN = 1
-    PLAYER_2_WIN = 2
-    NO_WINNER = 3
-    IN_PROGRESS = 4
 
 
 class TicTacToeLogic:
